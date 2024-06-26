@@ -1,0 +1,66 @@
+{'id': 'fcda0484-dc82-4fa1-9564-71f9bd0d30d9', 'model': 'gpt-4o', 'created': 1719331416, 'object': 'extensions.chat.completion', 'choices': [
+        {...
+        }
+    ], 'history_metadata': {}, 'apim-request-id': '40b68cfe-6a33-4b69-b11b-3f27cd1607cf'
+}
+
+
+'role':
+'tool'
+'content':
+'{"citations": [{"content": "Title: UKG Global Executive Presentation Deck.pdfWe selected UKG because \\nthey have proven \\nsolutions for managing a \\ncomplex global \\nworkforce. \\u2026There are no \\nlimits to what UKG can do \\nfor an organization.\\n13What Our Customers Have to SayYour Success Is Our Focus\\nWe selected UKG \\nbecause of its proven \\nrecord of helping \\nmultinational \\norganizations successfully \\noptimize workforce \\nmanagement processes. Each time and \\nattendance \\nimplementation is \\nlocalized to the account \\nfor union and statutory \\nrequirements for the \\ncountry or area.\\n", "title": "", "url": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf", "filepath": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf", "chunk_id": "0"}, {"content": "Title: UKG Pro WFM Sales Pitch Deck.pdf25UKG is OVERALL Leader in the \\nWorkforce Management Value Index\\n\\u201c[UKG] placed first in the \\nValue Index for Workforce \\nManagement and also tops \\nthe Ca...
+len():
+2
+
+response_obj['choices'][0]['messages'][0]['role']
+'tool'
+response_obj['choices'][0]['messages'][0]['content']
+'{"citations": [{"content": "Title: UKG Global Executive Presentation Deck.pdfWe selected UKG because \\nthey have proven \\nsolutions for managing a \\ncomplex global \\nworkforce. \\u2026There are no \\nlimits to what UKG can do \\nfor an organization.\\n13What Our Customers Have to SayYour Success Is Our Focus\\nWe selected UKG \\nbecause of its proven \\nrecord of helping \\nmultinational \\norganizations successfully \\noptimize workforce \\nmanagement processes. Each time and \\nattendance \\nimplementation is \\nlocalized to the account \\nfor union and statutory \\nrequirements for the \\ncountry or area.\\n", "title": "", "url": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf", "filepath": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf", "chunk_id": "0"}, {"content": "Title: UKG Pro WFM Sales Pitch Deck.pdf25UKG is OVERALL Leader in the \\nWorkforce Management Value Index\\n\\u201c[UKG] placed first in the \\nValue Index for Workforce \\nManagement and also tops \\nthe Capability category due \\nto its robust, AI -powered, \\nnative -mobile and native -\\ncloud [Workforce \\nManagement] product.\\u201d  \\nVentana Research, June 2019", "title": "", "url": "Sales Pitch Decks/UKG Pro WFM Sales Pitch Deck.pdf", "filepath": "Sales Pitch Decks/UKG Pro WFM Sales Pitch Deck.pdf", "chunk_id": "0"}, {"content": "Title: UKG Global Executive Presentation Deck.pdfMore than 50,000 customers across 165 countriesUKG\\u2019s Global Footprint\\n= UKG Office Locations\\n11\\n= UKG Headquarters\\n", "title": "", "url": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf", "filepath": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf", "chunk_id": "0"}, {"content": "Title: UKG Wellbeing at Work Overview PPT.pdf22Communicate Company -wide\\nCommunicateTarget communication \\nby geography\\nKeep employees up to \\ndate in real time about \\nhealth, community, and \\ncompany updates\\nFrequent tips and \\nreminders to keep them \\ninformed\\nConfigurable \\nbroadcast tools\\n", "title": "", "url": "Sales Pitch Decks/UKG Wellbeing at Work Overview PPT.pdf", "filepath": "Sales Pitch Decks/UKG Wellbeing at Work Overview PPT.pdf", "chunk_id": "0"}, {"content": "Title: UKG Pro WFM Sales Pitch Deck.pdf8Global Leader \\nin Workforce \\nManagement\\nSource: IHS Technology, Workforce Management Solutions Report 2015 (June 2015)UKG\\n24%\\nADP\\n14%\\nOracle\\n6%\\nSAP\\n6%Other\\n50%Worldwide\\nMarket Share\\n$4.3B\\nUKG is the # 1 vendor in worldwide \\nworkforce management applications. \\n\\u2014 IDC", "title": "", "url": "Sales Pitch Decks/UKG Pro WFM Sales Pitch Deck.pdf", "filepath": "Sales Pitch Decks/UKG Pro WFM Sales Pitch Deck.pdf", "chunk_id": "0"}], "intent": "[\\"What is UKG?\\", \\"UKG company overview\\", \\"UKG workforce management solutions\\"]"}'
+
+"""
+{
+  "citations": [
+    {
+      "content": "Title: UKG Global Executive Presentation Deck.pdf\nWe selected UKG because they have proven solutions for managing a complex global workforce. There are no limits to what UKG can do for an organization.\n13What Our Customers Have to SayYour Success Is Our Focus\nWe selected UKG because of its proven record of helping multinational organizations successfully optimize workforce management processes. Each time and attendance implementation is localized to the account for union and statutory requirements for the country or area.",
+      "title": "",
+      "url": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf",
+      "filepath": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf",
+      "chunk_id": "0"
+    },
+    {
+      "content": "Title: UKG Pro WFM Sales Pitch Deck.pdf\n25UKG is OVERALL Leader in the Workforce Management Value Index\n“[UKG] placed first in the Value Index for Workforce Management and also tops the Capability category due to its robust, AI-powered, native-mobile and native-cloud [Workforce Management] product.”  Ventana Research, June 2019",
+      "title": "",
+      "url": "Sales Pitch Decks/UKG Pro WFM Sales Pitch Deck.pdf",
+      "filepath": "Sales Pitch Decks/UKG Pro WFM Sales Pitch Deck.pdf",
+      "chunk_id": "0"
+    },
+    {
+      "content": "Title: UKG Global Executive Presentation Deck.pdf\nMore than 50,000 customers across 165 countries\nUKG’s Global Footprint\n= UKG Office Locations\n= UKG Headquarters",
+      "title": "",
+      "url": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf",
+      "filepath": "Sales Pitch Decks/UKG Global Executive Presentation Deck.pdf",
+      "chunk_id": "0"
+    },
+    {
+      "content": "Title: UKG Wellbeing at Work Overview PPT.pdf\n22Communicate Company-wide\nCommunicate\nTarget communication by geography\nKeep employees up to date in real time about health, community, and company updates\nFrequent tips and reminders to keep them informed\nConfigurable broadcast tools",
+      "title": "",
+      "url": "Sales Pitch Decks/UKG Wellbeing at Work Overview PPT.pdf",
+      "filepath": "Sales Pitch Decks/UKG Wellbeing at Work Overview PPT.pdf",
+      "chunk_id": "0"
+    },
+    {
+      "content": "Title: UKG Pro WFM Sales Pitch Deck.pdf\n8Global Leader in Workforce Management\nSource: IHS Technology, Workforce Management Solutions Report 2015 (June 2015)\nUKG\n24%\nADP\n14%\nOracle\n6%\nSAP\n6%\nOther\n50%\nWorldwide Market Share\n$4.3B\nUKG is the #1 vendor in worldwide workforce management applications.\n— IDC",
+      "title": "",
+      "url": "Sales Pitch Decks/UKG Pro WFM Sales Pitch Deck.pdf",
+      "filepath": "Sales Pitch Decks/UKG Pro WFM Sales Pitch Deck.pdf",
+      "chunk_id": "0"
+    }
+  ],
+  "intent": [
+    "What is UKG?",
+    "UKG company overview",
+    "UKG workforce management solutions"
+  ]
+}
+"""
+

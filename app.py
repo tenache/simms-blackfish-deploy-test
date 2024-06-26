@@ -284,7 +284,7 @@ async def promptflow_request(request):
                 app_settings.promptflow.request_field_name,
                 app_settings.promptflow.response_field_name
             )
-            # NOTE: This only support question and chat_history parameters
+            # NOTE: This only supports question and chat_history parameters
             # If you need to add more parameters, you need to modify the request body
             response = await client.post(
                 app_settings.promptflow.endpoint,

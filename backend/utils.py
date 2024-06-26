@@ -94,6 +94,7 @@ def format_non_streaming_response(chatCompletion, history_metadata, apim_request
                     {
                         "role": "tool",
                         "content": json.dumps(message.context),
+                        # "content": message.context
                     }
                 )
             response_obj["choices"][0]["messages"].append(
@@ -166,9 +167,9 @@ def format_pf_non_streaming_response(
                 "content": chatCompletion[response_field_name] 
             })
         if citations_field_name in chatCompletion:
-            messages.append({ 
+            messages.insert(0, { 
                 "role": "tool",
-                "content": chatCompletion[citations_field_name]
+                "content": json.dumps(chatCompletion[citations_field_name])
             })
         response_obj = {
             "id": chatCompletion["id"],
@@ -179,7 +180,7 @@ def format_pf_non_streaming_response(
             "choices": [
                 {
                     "messages": messages,
-                    "history_metadata": history_metadata,
+                    # "history_metadata": history_metadata,
                 }
             ]
         }
